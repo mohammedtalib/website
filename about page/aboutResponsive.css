@@ -1,0 +1,267 @@
+
+
+@media screen and (max-width: 575px){
+/* ==================
+        navbar
+    ================== */
+
+       .links{
+        padding-left:0;
+    }
+
+/* ==================
+      picture part
+   ================== */
+
+
+
+   .background-img .pargraph-img{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+   /* ==================
+        gools part
+   ================== */
+
+   .gools{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 20px;
+   }
+
+   /* ==================
+      about me part
+   ================== */
+
+   .about-me{
+    overflow: hidden;
+    background-attachment:scroll;
+    height: 450px;
+    }
+   
+
+    .about-me .about{
+        width: 85%;
+        float: none;
+        top: 15%;
+    }
+
+
+/* ==================
+      contact me part
+   ================== */
+
+
+   .contact-me .contact{
+    width: 100%;
+}
+
+
+    /* ==================
+            footer
+       ================== */
+
+
+       .footer-main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .footer-main .child1{
+        color: #fff;
+        width: 200px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-main .child{
+        border-left: none;
+        padding: 20px 0;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+
+    /* ==================
+        navbar
+    ================== */
+
+    .links{
+        padding-left:0;
+    }
+
+
+    /* ==================
+      picture part
+   ================== */
+
+   .background-img .pargraph-img{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+   /* ==================
+        gools part
+   ================== */
+
+   .gools{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+   }
+
+
+   /* ==================
+      about me part
+   ================== */
+
+   .about-me{
+    overflow: hidden;
+    background-attachment:scroll;
+    height: 450px;
+    }
+   
+
+    .about-me .about{
+        width: 85%;
+        float: none;
+        top: 20%;
+    }
+
+   /* ==================
+      contact me part
+   ================== */
+
+
+   .contact-me .contact{
+    width: 100%;
+    }
+    /* ==================
+            footer
+       ================== */
+
+
+       .footer-main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .footer-main .child1{
+        color: #fff;
+        width: 200px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-main .child{
+        border-left: none;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+/* ==================
+        navbar
+    ================== */
+
+    .links{
+        padding-left:0;
+    }
+
+
+    /* ==================
+      picture part
+   ================== */
+
+   .background-img .pargraph-img{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+   /* ==================
+        gools part
+   ================== */
+
+   .gools{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+   }
+
+/* ==================
+      about me part
+   ================== */
+
+   .about-me{
+    overflow: hidden;
+    background-attachment:scroll;
+    height: 450px;
+    }
+   
+
+    .about-me .about{
+        width: 55%;
+        float: none;
+        top: 20%;
+    }
+
+
+/* ==================
+      contact me part
+   ================== */
+
+
+   .contact-me .contact{
+    width: 80%;
+    }
+
+        /* ==================
+            footer
+       ================== */
+
+
+       .footer-main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .footer-main .child1{
+        color: #fff;
+        width: 200px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-main .child{
+        border-left: none;
+        padding: 20px 0;
+    }
+
+}
